@@ -7,7 +7,8 @@
 body {
     color: #333;
     font: 400 24px "Roboto", sans-serif;
-    margin: 0;
+    width: 45%;
+    margin: auto;
 }
 
 ul {
@@ -76,10 +77,6 @@ h4 {
     padding: 10px;
 }
 
-section {
-    width: 45%;
-}
-
 footer,
 main,
 header,
@@ -91,10 +88,12 @@ main {
     font-size: 21px;
 }
 
+aside { text-align: center;}
+
 aside img {
     height: auto;
-    width: 50%;
-}
+    width: 22%;
+    }
 
 section img {
     width: 70%;
@@ -107,8 +106,7 @@ footer {
     height: 100px;
     padding: 10px;
     background-color: #fcee21;
-    width: 45%;
-}
+    }
 
 footer h1 {
     font-size: 33px;
