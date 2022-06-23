@@ -6,6 +6,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $comentarios = $_POST['comentarios'];
+$menu = $_POST['menu'];
 $message = "
 <html>
 <head>
@@ -16,6 +17,7 @@ $message = "
 <p>Nombre: $nombre </p>
 <p>Email: $email </p>
 <p>Comentarios: $comentarios </p>
+<p>Menú: $menu </p>
 </body>
 </html>";
  echo 'Gracias por comunicarse con nosotros';

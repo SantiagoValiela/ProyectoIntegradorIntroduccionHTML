@@ -20,9 +20,9 @@
       </li>
     </ul>
   </nav>
-  <header>
-    <section>
-      <h1>Somos wwwwapas</h1>
+  <header class="encolumnar">
+    <section id="presentacion">
+      <h1>Somos <strong class="grande"> wwwwapas</strong></h1>
       <h3>Social media managers | creadoras de contenido</h3>
       <p>
         Nos encargamos de construir, gestionar y administrar la comunidad
@@ -32,7 +32,7 @@
     </section>
   </header>
   <main>
-    <div>
+    <div class="encolumnar">
       <section>
         <img src="./img/foto.png" alt="imagen-wapas">
         <h3>¡Hola! Somos SOFI y JULIA</h3>
@@ -56,11 +56,12 @@
         </p>
       </section>
     </div>
-    <section>
-      <div>
-        <img src="./img/img-servicios.png" alt="imagen-servicios"></div>
-        <div id="servicios">
-          <h3>Nuestros Servicios</h3>
+    
+      <section>
+        <img id="imagen" src="./img/img-servicios.png" alt="imagen-servicios"></section>
+        <section class="encolumnar" id="servicios">
+        <div>
+          <h2 id="titulo">Servicios</h2>
         <ol>
           <li>Análisis de perfil (Benchmarking)</li>
           <li>Revisión y activación de canales</li>
@@ -68,22 +69,22 @@
           <li>Respuestas a mensajes y consultas</li>
           <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
           <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-          <li class="empecemos">¡Empezamos a comunicar!</li>
         </ol>
-    </section>
+          <p class="item">¡Empezamos a comunicar!</p>
+         </section>
     </div>
     <div id="contacto">
       <section>
-        <h4>¿Querés que nos contactemos <br> con vos?</h4>
-        <p>Envianos tu consulta >></p>
-        <form action="./codigo.php" method="post">
+        <h4>¿Querés que nos contactemos con vos?</h4>
+        <p class="item">Envianos tu consulta >></p>
+        <form action="./codigo.php" method="POST">
           <div><label>Nombre <span>*</span></label>
-          <input type="text" required placeholder="Juan Garcia">
+          <input type="text" name="nombre" required placeholder="Juan Garcia">
           <label>Email principal y de referencia <span>*</span></label>
-          <input type="email" placeholder="info@mimail.com" required>
+          <input type="email" name="email" placeholder="info@mimail.com" required>
           <label>Mensaje <span>*</span></label>
           <textarea required name="comentarios" placeholder="Escriba aquí"></textarea></div>
-          <div class="buttoncenter"><button class="boton">Enviar Consulta</button>
+          <div class="botoncentro encolumnar"><button class="boton">Enviar Consulta</button>
           <input class="reset" type="reset" value="borrar"></div>
         </form>
       </section>

@@ -11,6 +11,10 @@ body {
   margin: auto;
 }
 
+.encolumnar {padding: 20px;
+margin-bottom: 30px;
+border-bottom: 0.5px solid gray;}
+
 ul {
   list-style: none;
 }
@@ -50,9 +54,14 @@ header h1 {
   font-family: "Coiny", cursive;
 }
 
+.grande {font-size: 100px;
+    font-family: "Coiny", cursive;
+}
+
 h1,
 h2,
-h3 {
+h3,
+.item {
   color: black;
 }
 
@@ -66,7 +75,9 @@ h2 {
 }
 
 h3 {
-  font-size: 38px;
+  font-size: 20px;
+  display: inline;
+
 }
 
 h4 {
@@ -74,9 +85,15 @@ h4 {
   font-size: 51px;
   color: white;
   background-color: black;
-  line-height: 100px;
+  line-height: 60px;
   padding: 10px;
+  margin-bottom: 30px;
 }
+
+.item {font-size: 24px;
+    font-weight: bold;
+     background-color:#fcee21;}
+
 
 footer,
 main,
@@ -95,18 +112,22 @@ main {
   padding: 30px;
 }
 
+#imagen {width: 80%;
+display: block;
+margin: auto;}
+
 ol {
   font-size: 1em;
   font-weight: 400;
   list-style-position: inside;
 }
 
-.empecemos {
+.item {
   text-align: center;
   font-size: 50px;
   font-weight: 900;
   background-color: #fcee21;
-  margin-top: 10px;
+  margin-top: 50px;
   list-style-type: none;
 }
 
@@ -123,6 +144,9 @@ button,
   margin-bottom: 10px;
   font-weight: 700;
 }
+
+label {display: block;
+       margin-bottom: 5px;}
 
 input,
 button {
@@ -142,7 +166,7 @@ textarea {
   background-color: black;
   color: white;
 }
-.buttoncenter {
+.botoncentro {
   text-align: center;
 }
 
@@ -157,6 +181,10 @@ aside {
 aside p {
   text-align: left;
 }
+
+#titulo {font-size: 40px;}
+
+header.encolumnar, aside.encolumnar {border-bottom: none;}
 
 .redes {
   display: flex;
