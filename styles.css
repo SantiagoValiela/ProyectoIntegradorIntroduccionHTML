@@ -6,14 +6,21 @@
 
 body {
   color: #333;
-  font: 400 24px "Roboto", sans-serif;
-  width: 50%;
-  margin: auto;
+  font: 400;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
-.encolumnar {padding: 20px;
-margin-bottom: 30px;
-border-bottom: 0.5px solid gray;}
+.encolumnar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 0.5px solid gray;
+}
+
 
 ul {
   list-style: none;
@@ -21,13 +28,17 @@ ul {
 
 nav {
   padding: 20px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  background-color: #fcee21;
 }
 
 nav a {
   text-transform: capitalize;
 }
 
-nav h1 {
+nav h1 {  
   margin-right: auto;
   font-size: 51px;
 }
@@ -48,15 +59,23 @@ nav a:hover {
   text-decoration: underline;
 }
 
+
+#presentacion {width: 50%;}
+
+#imagen1 {width: 100%;}
+
+
 header h1 {
   font-size: 31px;
   font-weight: 700;
   font-family: "Coiny", cursive;
 }
 
-.grande {font-size: 100px;
-    font-family: "Coiny", cursive;
+.grande {
+  font-size: 100px;
+  font-family: "Coiny", cursive;
 }
+
 
 h1,
 h2,
@@ -77,7 +96,6 @@ h2 {
 h3 {
   font-size: 20px;
   display: inline;
-
 }
 
 h4 {
@@ -90,10 +108,11 @@ h4 {
   margin-bottom: 30px;
 }
 
-.item {font-size: 24px;
-    font-weight: bold;
-     background-color:#fcee21;}
-
+.item {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #fcee21;
+}
 
 footer,
 main,
@@ -107,14 +126,17 @@ main {
 }
 
 #servicios {
+  align-items: center;
   background-color: whitesmoke;
   margin-bottom: 40px;
   padding: 30px;
 }
 
-#imagen {width: 80%;
-display: block;
-margin: auto;}
+#imagen2 {
+  width: 80%;
+}
+
+
 
 ol {
   font-size: 1em;
@@ -145,8 +167,10 @@ button,
   font-weight: 700;
 }
 
-label {display: block;
-       margin-bottom: 5px;}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
 
 input,
 button {
@@ -161,7 +185,7 @@ textarea {
 
 .boton,
 .reset {
-  width: 39%;
+  width: 45%;
   display: inline;
   background-color: black;
   color: white;
@@ -182,9 +206,14 @@ aside p {
   text-align: left;
 }
 
-#titulo {font-size: 40px;}
+#titulo {
+  font-size: 40px;
+}
 
-header.encolumnar, aside.encolumnar {border-bottom: none;}
+header.encolumnar,
+aside.encolumnar {
+  border-bottom: none;
+}
 
 .redes {
   display: flex;
@@ -194,15 +223,10 @@ header.encolumnar, aside.encolumnar {border-bottom: none;}
   margin-bottom: 30px;
 }
 .redes img {
-  width: 60%;
+  width: 35%;
 }
 
-section img {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
+
 
 footer {
   height: 100px;
