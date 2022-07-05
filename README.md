@@ -1,2 +1,2 @@
-# ProyectoIntegradorTelecom
-Front End React proyecto intergador
+# ProyectoIntegradorIntroduccionHTMLtelecom
+Front End React proyecto intergador de Introducción a HTML
